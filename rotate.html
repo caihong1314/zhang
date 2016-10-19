@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>xx</title>
+    <link rel="stylesheet" href="css/style.css"></link>
+	<link rel="stylesheet" href="css/animation.css"></link>
+	<link rel="stylesheet" href="css/main.css"></link>
+	<script src="js/jquery.js"></script>
+	
+	<script src='js/pace.min.js'></script>
+	<script src='js/main.js'></script>
+	<script src='js/prettify.js'></script>
+</head>
+<body>
+  <script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
+<div class="block a-fadeinR"style="overflow:hidden;height:1500px;width:1000px;margin:0 auto;">
+        <div class="widget about">
+             <strong class="wt">云标签</strong>
+             <div class="wc" style="width:400px;height:300px;margin:0 auto;">
+                <div id="rotate" >
+                  <a href="/tag/javascript" target="_blank">javascript</a>
+                  <a href="/tag/js" target="_blank">js</a>
+                  <a href="/tag/input%20file" target="_blank">input file</a>
+                  <a href="/tag/%20UEditor" target="_blank">UEditor</a>
+                  <a href="/tag/复文本框" target="_blank">复文本框</a>
+                  <a href="/tag/编辑器" target="_blank">编辑器</a>
+                  <a href="/tag/jsmart" target="_blank">jsmart</a>
+                  <a href="/tag/json" target="_blank">json</a>
+                  <a href="/tag/ant" target="_blank">ant</a>
+                  <a href="/tag/yuicompressor" target="_blank">yuicompressor</a>
+                  <a href="/tag/前端" target="_blank">前端</a>
+                  <a href="/tag/php" target="_blank">php</a>
+                  <a href="/tag/input美化" target="_blank">input美化</a>
+                  <a href="/tag/闭包" target="_blank">闭包</a>
+                  <a href="/tag/html" target="_blank">html</a>
+                  <a href="/tag/navigator" target="_blank">navigator</a>
+                  <a href="/tag/jquery" target="_blank">jquery</a>
+                  <a href="/tag/jqueryeasyUI" target="_blank">jqueryeasyUI</a>
+                  <a href="/tag/html5" target="_blank">html5</a>
+                  <a href="/tag/css3" target="_blank">css3</a>
+                  <a href="/tag/mongodb" target="_blank">mongodb</a>
+                  <a href="/tag/iframe" target="_blank">iframe</a>
+                  <a href="/tag/sass" target="_blank">sass</a>
+                  <a href="/tag/execCommand" target="_blank">execCommand</a>
+                  <a href="/tag/Cookie" target="_blank">Cookie</a>
+                  <a href="/tag/时间戳" target="_blank">时间戳</a>
+                  <a href="/tag/css hack" target="_blank">css hack</a>
+                  <a href="/tag/IE浏览器" target="_blank">IE浏览器</a>
+                  <a href="/tag/心得" target="_blank">心得</a>
+                  <a href="/tag/dedecms" target="_blank">dedecms</a>
+                  <a href="/tag/RegExp" target="_blank">RegExp</a>
+                  <a href="/tag/Emmet" target="_blank">Emmet</a>
+                  <a href="/tag/sublime " target="_blank">sublime </a>
+                  <a href="/tag/手机网站" target="_blank">手机网站</a>
+                  <a href="/tag/canvas" target="_blank">canvas</a>
+                  <a href="/tag/nodejs" target="_blank">nodejs</a>
+                  <a href="/tag/linux" target="_blank">linux</a>
+                  <a href="/tag/nginx" target="_blank">nginx</a>
+                  <a href="/tag/Ecshop" target="_blank">Ecshop</a>
+                  <a href="/tag/flash" target="_blank">flash</a>
+                  <a href="/tag/photoshop" target="_blank">photoshop</a>
+            		  <a href="/tag/angularjs" target="_blank">angularjs</a>
+                  <a href="/tag/seo" target="_blank">seo</a>
+                <a href="/tag/go语言" target="_blank">go语言</a>
+                </div>
+               <div class="sep10"></div>
+             </div>
+           </div>
+</div> 
+	<div class="actGotop" id="backtop" style="display: block;">
+      <a href="javascript:;" title="返回顶部"></a>
+    </div>
+
+<script type='text/javascript'>
+      $(document).ready(function(){
+        $("#backtop").hide();
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 100) {
+            $('#backtop').fadeIn();
+          } else {
+            $('#backtop').fadeOut();
+          }
+        });
+        $('#backtop').click(function () {
+          $('body,html').animate({
+            scrollTop: 0
+          }, 500);
+        });
+        $("pre").addClass("prettyprint");
+         prettyPrint();
+      });
+</script>
+</body>
+</html>
